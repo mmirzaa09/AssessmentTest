@@ -64,7 +64,6 @@ const Repositories = ({repos}: Props) => {
           <div className="row">
             <div className="col-md-6 hero-text">
               <h2>Search for <span>Github</span> <br />Respositories</h2>
-              <h5>Use modern progressive technologies of Github to earn code references around the world</h5>
                <form className="hero-subscribe-from" onSubmit={handleSubmit}>
                  <input 
                   type="text" name="search"
