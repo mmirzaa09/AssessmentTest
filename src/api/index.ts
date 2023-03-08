@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Repository } from "../interface/respository";
+import { Repository } from "@/interface/respository";
 
 export const api = axios.create({
   baseURL: 'https://api.github.com',
